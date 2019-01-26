@@ -4189,6 +4189,7 @@ GameObject:
   - component: {fileID: 1842127189}
   - component: {fileID: 1842127190}
   - component: {fileID: 1842127191}
+  - component: {fileID: 1842127192}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4296,7 +4297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b902dfc633c2405e8fe3c53d8297fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 125
   lastMovement: {x: 0, y: 0}
 --- !u!95 &1842127191
 Animator:
@@ -4317,6 +4318,27 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &1842127192
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842127186}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1941459375
 GameObject:
   m_ObjectHideFlags: 0
