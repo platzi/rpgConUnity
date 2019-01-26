@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/juangabriel/Developer/Projects/Unity/nuevos-cursos/Platzi Adventure/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
