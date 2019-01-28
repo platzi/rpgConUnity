@@ -227,6 +227,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 262857881196884206, guid: 56d288467ca7c4f13b668418d6405e68,
+        type: 3}
+      propertyPath: placeName
+      value: RicardoHouseFront
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56d288467ca7c4f13b668418d6405e68, type: 3}
 --- !u!1 &426030815
@@ -4799,12 +4804,12 @@ PrefabInstance:
     - target: {fileID: 3193886803433977772, guid: 56d288467ca7c4f13b668418d6405e68,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.17
+      value: 27.78
       objectReference: {fileID: 0}
     - target: {fileID: 3193886803433977772, guid: 56d288467ca7c4f13b668418d6405e68,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.76
+      value: -8.94
       objectReference: {fileID: 0}
     - target: {fileID: 3193886803433977772, guid: 56d288467ca7c4f13b668418d6405e68,
         type: 3}
@@ -4850,6 +4855,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 262857881196884206, guid: 56d288467ca7c4f13b668418d6405e68,
+        type: 3}
+      propertyPath: placeName
+      value: RicardoHouseBack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56d288467ca7c4f13b668418d6405e68, type: 3}
@@ -36976,6 +36986,11 @@ PrefabInstance:
         type: 3}
       propertyPath: newPlaceName
       value: HouseInteriorScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1822207583500782066, guid: 6c5c25e70af6740cf871efd877dbab48,
+        type: 3}
+      propertyPath: goToPlaceName
+      value: RicardoHouse
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c5c25e70af6740cf871efd877dbab48, type: 3}

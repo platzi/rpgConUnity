@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
     public static bool playerCreated;
 
+    public string nextPlaceName;
 
     // Start is called before the first frame update
     void Start()

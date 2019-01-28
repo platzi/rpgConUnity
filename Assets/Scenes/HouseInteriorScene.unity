@@ -184,6 +184,11 @@ PrefabInstance:
       propertyPath: newPlaceName
       value: MainScene
       objectReference: {fileID: 0}
+    - target: {fileID: 1822207583500782066, guid: 6c5c25e70af6740cf871efd877dbab48,
+        type: 3}
+      propertyPath: goToPlaceName
+      value: RicardoHouseBack
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c5c25e70af6740cf871efd877dbab48, type: 3}
 --- !u!1 &215217601
@@ -2363,6 +2368,11 @@ PrefabInstance:
       propertyPath: newPlaceName
       value: MainScene
       objectReference: {fileID: 0}
+    - target: {fileID: 1822207583500782066, guid: 6c5c25e70af6740cf871efd877dbab48,
+        type: 3}
+      propertyPath: goToPlaceName
+      value: RicardoHouseFront
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c5c25e70af6740cf871efd877dbab48, type: 3}
 --- !u!1 &1619760220
@@ -3446,6 +3456,11 @@ PrefabInstance:
         type: 3}
       propertyPath: facingDirection.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 262857881196884206, guid: 56d288467ca7c4f13b668418d6405e68,
+        type: 3}
+      propertyPath: placeName
+      value: RicardoHouse
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56d288467ca7c4f13b668418d6405e68, type: 3}
