@@ -8,10 +8,10 @@ public class UIManager : MonoBehaviour
 {
     public Slider playerHealthBar;
     public Text playerHealthText;
+    public Text playerLevelText;
 
-
+    public CharacterStats playerStats;
     public HealthManager playerHealthManager;
-
 
     // Update is called once per frame
     void Update()
@@ -25,5 +25,7 @@ public class UIManager : MonoBehaviour
         sb.Append("/");
         sb.Append(playerHealthManager.maxHealth);
         playerHealthText.text = sb.ToString();
+        playerLevelText.text = "Level: "+playerStats.currentLevel + 
+                        " (Exp: "+playerStats.currentExp+")";
     }
 }
