@@ -25,5 +25,7 @@ public class WeaponDamage : MonoBehaviour
                 );
             clone.GetComponent<DamageNumber>().damagePoints = damage;
         }
+
     }
+
 }

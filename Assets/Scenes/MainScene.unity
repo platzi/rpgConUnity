@@ -1405,6 +1405,7 @@ GameObject:
   - component: {fileID: 1168088171}
   - component: {fileID: 1168088170}
   - component: {fileID: 1168088169}
+  - component: {fileID: 1168088173}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1493,6 +1494,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1168088173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168088168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c915303629d4c908d6b921befe93a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealthBar: {fileID: 1847949662}
+  playerHealthText: {fileID: 1866815936}
+  playerHealthManager: {fileID: 1842127187}
 --- !u!1 &1215072053
 GameObject:
   m_ObjectHideFlags: 0
@@ -5843,6 +5859,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2554872398555185133}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1842127187 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1842127187, guid: 4bdd75c88a39941ee85769d67992ffc8,
+    type: 3}
+  m_PrefabInstance: {fileID: 2554872398555185133}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842127186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6072caf8478ae43ce84eb266d9d5013c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1847949660
 GameObject:
   m_ObjectHideFlags: 0
@@ -5854,7 +5882,7 @@ GameObject:
   - component: {fileID: 1847949661}
   - component: {fileID: 1847949662}
   m_Layer: 5
-  m_Name: HT Bar
+  m_Name: HP Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
