@@ -23,6 +23,7 @@ public class Quest : MonoBehaviour
 
     public void StartQuest()
     {
+        manager = FindObjectOfType<QuestManager>();
         manager.ShowQuestText(startText);
     }
 
