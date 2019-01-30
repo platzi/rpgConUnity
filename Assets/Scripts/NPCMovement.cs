@@ -7,7 +7,7 @@ public class NPCMovement : MonoBehaviour
     public float speed = 1.5f;
     private Rigidbody2D npcRigidbody;
 
-    public bool isWalking;
+    public bool isWalking, isTalking;
 
     public float walkTime = 1.5f;
     private float walkCounter;
@@ -27,9 +27,12 @@ public class NPCMovement : MonoBehaviour
 
     public BoxCollider2D villagerZone;
 
+    private DialogManager manager;
+
     // Start is called before the first frame update
     void Start()
     {
+        manager = FindObjectOfType<DialogManager>();
         npcRigidbody = GetComponent<Rigidbody2D>();
         waitCounter = waitTime;
         walkCounter = walkTime;
@@ -38,6 +41,17 @@ public class NPCMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!manager.dialogActive)
+        {
+            isTalking = false;
+        }
+
+        if (isTalking)
+        {
+            StopWalking();
+            return;
+        }
+
         if (isWalking)
         {
             if(villagerZone != null)

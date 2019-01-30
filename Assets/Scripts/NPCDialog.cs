@@ -25,9 +25,14 @@ public class NPCDialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerInTheZone && Input.GetKeyDown(KeyCode.Return))
+
+        if (playerInTheZone && Input.GetKeyDown(KeyCode.Return))
         {
             manager.ShowDialog(dialog);
+            if (gameObject.GetComponentInParent<NPCMovement>() != null)
+            {
+                gameObject.GetComponentInParent<NPCMovement>().isTalking = true;
+            }
         }
     }
 }
