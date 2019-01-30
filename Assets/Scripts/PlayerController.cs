@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
         }
 
         playerTalking = false;
+        lastMovement = new Vector2(1, 0);
     }
 
     // Update is called once per frame
