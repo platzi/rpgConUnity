@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NPCDialog : MonoBehaviour
 {
-    public string dialog;
+    public string[] dialog;
     private DialogManager manager;
     private bool playerInTheZone;
 

@@ -744,6 +744,8 @@ MonoBehaviour:
   dialogBox: {fileID: 1214460008}
   dialogText: {fileID: 305190431}
   dialogActive: 0
+  dialogLines: []
+  currentDialogLine: 0
 --- !u!1001 &557761687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6753,7 +6755,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e8bd6533bba24a22a811840ef8243e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog: Hola, soy Ricardo y estoy probando el videojuego.
+  dialog:
+  - Hola, soy Ricardo.
+  - "Estoy aqu\xED para ayudarte."
+  - Espero que disfrutes de nuestra aldea.
 --- !u!61 &1923968451
 BoxCollider2D:
   m_ObjectHideFlags: 0
