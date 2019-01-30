@@ -9,6 +9,8 @@ public class QuestManager : MonoBehaviour
 
     private DialogManager manager;
 
+    public string itemCollected;
+
     // Start is called before the first frame update
     void Start()
     {
