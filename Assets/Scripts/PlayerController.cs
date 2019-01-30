@@ -29,6 +29,8 @@ public class PlayerController : MonoBehaviour
     public float attackTime;
     private float attackTimeCounter;
 
+    public bool playerTalking;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,11 +46,20 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        playerTalking = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if (playerTalking)
+        {
+            playerRigidbody.velocity = Vector2.zero;
+            return;
+        }
+
         // s = v*t;
         walking = false;
 
