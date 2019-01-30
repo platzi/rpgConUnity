@@ -141,7 +141,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.073417425}
@@ -286,7 +286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &67401750
 RectTransform:
   m_ObjectHideFlags: 0
@@ -318,9 +318,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2674e8bf20c48439f9e0a92e24da4786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questID: 0
-  startText: 
-  completeText: 
+  questID: 2
+  startText: Mata a 5 ojos rojos.
+  completeText: Has matado a 5 ojos rojos.
+  needsItem: 0
+  itemNeeded: 
+  needsEnemy: 1
+  enemyName: RedEye
+  numberOfEnemies: 5
 --- !u!1001 &99289188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -476,6 +481,11 @@ MonoBehaviour:
   questID: 1
   startText: Recoge la campana del despertar.
   completeText: "Has conseguido la campana. \xA1Que empiece el fin del mundo!"
+  needsItem: 1
+  itemNeeded: CampanaDespertar
+  needsEnemy: 0
+  enemyName: 
+  numberOfEnemies: 0
 --- !u!4 &141312044 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7506915461809636998, guid: 83e13799088804531a4cfc0bd6461c6e,
@@ -956,6 +966,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
 --- !u!1 &542520646
@@ -1079,6 +1094,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
 --- !u!1001 &582619323
@@ -1147,6 +1167,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
@@ -1275,6 +1300,11 @@ MonoBehaviour:
   questID: 0
   startText: "\xA1Ir a casa de Ricardo!"
   completeText: Has llegado a casa de Ricardo
+  needsItem: 0
+  itemNeeded: 
+  needsEnemy: 0
+  enemyName: 
+  numberOfEnemies: 0
 --- !u!1 &885738174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,6 +1437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
@@ -2113,6 +2148,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
@@ -6540,6 +6580,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
 --- !u!1001 &1333458509
@@ -6608,6 +6653,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
@@ -6678,6 +6728,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
 --- !u!4 &1349167816 stripped
@@ -6743,6 +6798,80 @@ MonoBehaviour:
   - {fileID: 67401751}
   questCompleted: 
   itemCollected: 
+  enemyKilled: 
+--- !u!1 &1494291639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1494291642}
+  - component: {fileID: 1494291641}
+  - component: {fileID: 1494291640}
+  m_Layer: 0
+  m_Name: Quest2Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1494291640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494291639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64939aa320698484883867b50cb75609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questID: 2
+  startPoint: 1
+  endPoint: 0
+--- !u!61 &1494291641
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494291639}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &1494291642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494291639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 27.82, y: 6.71, z: 2.1914062}
+  m_LocalScale: {x: 2.352, y: 2.352, z: 2.352}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1498826058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6809,6 +6938,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
@@ -7318,6 +7452,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
@@ -39972,6 +40111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286261593829739512, guid: 83e13799088804531a4cfc0bd6461c6e,
+        type: 3}
+      propertyPath: enemyName
+      value: RedEye
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e13799088804531a4cfc0bd6461c6e, type: 3}
