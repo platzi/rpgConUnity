@@ -62,6 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\AudioNewTrack.cs" />
+    <Compile Include="Assets\Scripts\AudioVolumeController.cs" />
+    <Compile Include="Assets\Scripts\AudioVolumeManager.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\CameraLimits.cs" />
     <Compile Include="Assets\Scripts\CharacterStats.cs" />
